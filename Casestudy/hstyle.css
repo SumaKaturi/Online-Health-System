@@ -1,0 +1,95 @@
+﻿@import url('file:///C:\Users\DELL\source\repos\OnlineHealthsys\Casestudy\hstyle.css');
+body{
+    margin:0px;
+    padding:0px;
+
+}
+
+#top {
+    background-color: #004d99;
+    width: 1540px;
+    height: 150px;
+    margin: 0px;
+    padding: 0px;
+    border-block-color:black;
+}
+#middle {
+    background-color:bisque ;
+    
+    width: 1540px;
+    height: 500px;
+    margin: 0px;
+    padding: 0px;
+    
+}
+#bottom {
+    background-color: #004d99;
+    width: 1540px;
+    height: 150px;
+    margin: 0px;
+    padding: 0px;
+}
+#logo
+{
+    width:200px;
+    height:150px;
+    margin:10px, 10px, 10px, 10px;
+    left:0;
+    position:relative;
+    float:left;
+}
+#mdimg {
+    width: 1540px;
+    height: 500px;
+    margin: 0px;
+    padding: 0px;
+}
+.mainhead
+{
+    margin-top:10px;
+    top:20px;
+    font-size:30pt;
+    position:relative;
+    
+}
+#search
+{
+    padding:5px;
+    width:200px;
+    height:30px;
+
+
+}
+#srbtn
+{
+  
+    padding:5px;
+    width:50px;
+    height:30px;
+    left:150px;
+    position:absolute;
+   
+}
+.contents 
+{
+    left: 100px;
+    position: relative;
+    float: left;
+    margin-top: 0px;
+    padding-right: 10px;
+}
+.page
+{ 
+   top:0px;
+   padding-right:10px;
+   color:darkred;
+   font-size:20pt;
+
+}
+
+
+
+
+
+
+

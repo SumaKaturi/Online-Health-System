@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>makeappointment.com</title>
+    <script>
+        function time()
+        {
+            alert("Appointment time and details sent to your contact number");
+        }
+        function sub() {
+            alert("Your appointment is successfully booked");
+        }
+    </script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: url("img/appoint.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: sans-serif;
+            top:100px;
+            position:relative;
+        }
+    </style>
+</head>
+<body>
+    <form method="get" align="center" action="homepage.html">
+        <h1>Make Appoinment</h1>
+        <label>Patient ID</label>
+        <input type="number" name="ID" required /><br /><br />
+        <label>Patient Name</label>
+        <input type="text" name="name" requred /><br /><br />
+        <label>Health Issue</label>
+        <input type="text" name="problem" required /><br /><br />
+        <label>Choose Doctor</label>
+        <select>
+            <option type="text">Dr. Sumansh Naveen,Surgeon</option>
+            <option type="text">Dr. Srinivas Jangir,Physician</option>
+            <option type="text">Dr. Ram Singh,Dermotologist	</option>
+            <option type="text">Dr. Shruti Rai,Paediatrician</option>
+            <option type="text">Dr. Tejaswini,Gynaecologist</option>
+            <option type="text">Dr. Ramesh Koturu,Surgeon</option>
+            <option type="text">Dr. Kondaveeti Naveena,Cordiologist</option>
+            <option type="text">Dr. Karthik Babu,Cordiologist</option>
+            <option type="text">Dr. Jhansi Lakshmi Bhai,Physician</option>
+            <option type="text">Dr. Sravanthi Singh,Dentist</option>
+
+        </select><br /><br />
+        <label>Choose Date</label>
+        <input type="date" name="date" required /><br /><br />
+        <input type="button" name="submit" value="Make Appointent" onclick="time()" /><br /><br />
+        <input type="checkbox" name=" " /><label>Are You ok with the your appointment details, Agree?</label><br /><br />
+        <input type="button" name="submit" value="Submit" onclick="sub()" /><br /><br />
+    </form>
+
+</body>
+</html>

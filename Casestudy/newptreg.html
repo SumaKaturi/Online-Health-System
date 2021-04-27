@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>newdoctorreg.com</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: url("img/lgbackg.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: sans-serif;
+            top: 150px;
+            position: relative;
+        }
+    </style>
+    <script>
+
+        function reg() {
+            alert("Your registration Succefully completed....please Sign In");
+        }
+    </script>
+</head>
+<body>
+
+
+    <form method="get" action="Patientlogin.html" align="center">
+        <h1>REGISTRATION</h1>
+        <label>1. Name </label><input type="text" name="Ename" id="name" required /><br /><br />
+        <label>2. Contact Number </label><input type="number" name="Mbno" id="mbno" required /><br /><br />
+        <label>3. Email </label><input type="text" required /><br /><br />
+        <label>4. Age </label><input type="number" name="age" id="age" required /><br /><br />
+        <label>5. DOB </label><input type="date" name="dob" id="dob" required /><br /><br />
+        <label>6. Health Issue </label><input type="date" name="dob" id="dob" required />
+
+
+
+        <br /><br />
+        <input type="checkbox" name=" " /><label>I Agree</label>
+        <input type="submit" name="Submit" valu="Submit" onclick="reg()" />
+
+    </form>
+
+
+</body>
+</html>
